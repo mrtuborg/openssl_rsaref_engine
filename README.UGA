@@ -1,0 +1,9 @@
+This copy of the RSAREF2 library has been patched to address a remote
+exploit vulnerability.  The patch was applied to source/rsa.c (the
+pre-patched file is source/rsa.original.c).
+
+README.RSA contains RSA Security's legal notice regarding the library
+and the patch.
+
+README.CERT contains CERT's statement about the patch (which it
+provided).

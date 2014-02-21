@@ -1,0 +1,29 @@
+RSA Security Inc.
+
+   RSA Security Inc. recommends that developers implement the proposed or
+   similar patch to RSAREF version 2.0 or otherwise to ensure that the
+   length in bits of the modulus supplied to RSAREF is less than or equal
+   to MAX_RSA_MODULUS_BITS.
+
+   RSA Security Inc. is no longer distributing the RSAREF toolkit, which
+   it offered through RSA Laboratories in the mid-1990s as a free, source
+   implementation of modern cryptographic algorithms. Under the terms of
+   the RSAREF license, changes to the RSAREF code other than porting or
+   performance improvement require written consent. RSA Security hereby
+   gives its consent to implement a patch to RSAREF to address this
+   advisory.
+
+   This advisory only applies to RSAREF, not RSA Security's current
+   toolkits and products, which were developed independently of RSAREF.
+
+   Although RSA Security is no longer distributing RSAREF, the toolkit is
+   still available in a number of "freeware" products such as SSH under
+   RSA Security's original RSAREF v2.0 software license ("license.txt",
+   March 25, 1994), which is distributed along with those products. As a
+   reminder, that license limits the use of RSAREF to noncommercial
+   purposes. RSAREF, RSAREF applications, and services based on RSAREF
+   applications may not be sold, licensed or otherwise transferred for
+   value. (There is a minor exception for small "shareware" deployments
+   as noted in the "info.txt" file, March 25, 1994.)
+
+

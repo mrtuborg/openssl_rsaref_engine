@@ -1,0 +1,26 @@
+RSAREF Patch from Core SDI and the CERT/CC
+
+   With the assistance of Core SDI, the CERT Coordination Center tested
+   sshd version 1.2.27 running on an Intel-based RedHat Linux system and
+   found that configuration to be vulnerable. Tests conducted by Core SDI
+   indicate that sshd 1.2.27 running on OpenBSD and FreeBSD on Intel is
+   also vulnerable, and it is likely that other configurations are
+   vulnerable as well.
+
+   CERT/CC has developed a patch for the RSAREF2 vulnerability based in
+   part on work done by Core SDI. This patch is available at
+
+   ftp://ftp.core-sdi.com/pub/patches/rsaref2.patch
+          http://www.cert.org/advisories/CA-99-15/rsa-patch.txt
+
+   You can verify this patch with a detached PGP signature from the
+   CERT/CC.
+
+   We believe the patch originally provided by Core SDI in their advisory
+   may not be a complete fix to this particular problem. We have worked
+   with them to develop an updated patch and gratefully acknowledge their
+   contribution to the fix provided here. Neither the CERT/CC, the
+   Software Engineering Institute, nor Carnegie Mellon University
+   provides any warranties regarding this patch. Please see our
+   disclaimer at the end of this advisory.
+
